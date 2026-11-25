@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wolflingee.github.io/work-time/sitemap.xml

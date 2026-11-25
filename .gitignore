@@ -1,0 +1,7 @@
+*.apk
+*.apk.sha256
+*.p12
+*.jks
+*.keystore
+*.worktimebackup
+.env*
