@@ -1,3 +1,25 @@
+# Work Time 1.4.2
+
+2026-11-25
+
+## Русский
+
+- Раздел поддержки теперь открывается на официальном сайте Work Time.
+
+## Eesti
+
+- Toetuse jaotis avaneb nüüd Tööaja ametlikul veebilehel.
+
+## English
+
+- The support section now opens on the official Work Time website.
+
+## Українська
+
+- Розділ підтримки тепер відкривається на офіційному сайті застосунку.
+
+---
+
 # Work Time 1.4.0
 
 2026-11-25

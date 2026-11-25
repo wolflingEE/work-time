@@ -1,39 +1,27 @@
 {
   "schemaVersion": 1,
   "applicationId": "com.worktime.local",
-  "versionName": "1.4.0",
-  "versionCode": 10,
+  "versionName": "1.4.2",
+  "versionCode": 12,
   "minSdk": 29,
   "releaseDate": "2026-11-25",
-  "apkSizeBytes": 23419021,
-  "apkUrl": "https://github.com/wolflingEE/work-time/releases/download/v1.4.0/work-time.apk",
+  "apkSizeBytes": 23417905,
+  "apkUrl": "https://github.com/wolflingEE/work-time/releases/download/v1.4.2/work-time.apk",
   "latestDownloadUrl": "https://github.com/wolflingEE/work-time/releases/latest/download/work-time.apk",
-  "releaseUrl": "https://github.com/wolflingEE/work-time/releases/tag/v1.4.0",
-  "sha256": "d1edb6d1c1a3b2a0a4b4ce3cfe5494dbdb339887dc0f93d30d1ce88a674e5095",
+  "releaseUrl": "https://github.com/wolflingEE/work-time/releases/tag/v1.4.2",
+  "sha256": "dda97fda1362b004922acd6ab28132ce4205750461b37e4d4210eea88ee99557",
   "changelog": {
     "ru": [
-      "Ручная проверка обновлений в настройках.",
-      "Официальный сайт, отправка и копирование ссылки из приложения.",
-      "Сайт на четырёх языках и подписанный APK в GitHub Releases.",
-      "Политика конфиденциальности дополнена описанием проверки обновлений."
+      "Раздел поддержки теперь открывается на официальном сайте Work Time."
     ],
     "et": [
-      "Uuenduste käsitsi kontrollimine seadetes.",
-      "Ametliku veebilehe avamine ning lingi kopeerimine ja jagamine rakenduses.",
-      "Neljas keeles veebileht ja allkirjastatud APK GitHub Releasesis.",
-      "Privaatsuspoliitika kirjeldab nüüd uuenduste kontrollimist."
+      "Toetuse jaotis avaneb nüüd Tööaja ametlikul veebilehel."
     ],
     "en": [
-      "Manual update checks in Settings.",
-      "Open the official site, share its address or copy it from the app.",
-      "A website in four languages and a signed APK on GitHub Releases.",
-      "The privacy policy now describes update checks."
+      "The support section now opens on the official Work Time website."
     ],
     "uk": [
-      "Ручна перевірка оновлень у налаштуваннях.",
-      "Перехід на офіційний сайт, копіювання й поширення посилання із застосунку.",
-      "Сайт чотирма мовами й підписаний APK у GitHub Releases.",
-      "Політика конфіденційності тепер описує перевірку оновлень."
+      "Розділ підтримки тепер відкривається на офіційному сайті застосунку."
     ]
   }
 }
