@@ -88,8 +88,47 @@ document.addEventListener("DOMContentLoaded", () => {
     }));
     dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
   }
-  if (document.querySelector("[data-download]")) loadReleases();
+  const download = document.querySelector("[data-download]");
+  if (download) {
+    loadReleases();
+    showDownloadCount(download);
+  }
 });
+
+async function showDownloadCount(download) {
+  const labels = {
+    ru: "Всего скачиваний APK",
+    et: "APK allalaadimisi kokku",
+    en: "Total APK downloads",
+    uk: "Усього завантажень APK",
+  };
+  const endpoint = new URL("https://api.github.com/repos/wolflingEE/work-time/releases");
+  endpoint.searchParams.set("per_page", "100");
+  let total = 0;
+  let hasApk = false;
+  try {
+    for (let number = 1; ; number++) {
+      endpoint.searchParams.set("page", number);
+      const response = await fetch(endpoint, {credentials: "omit", referrerPolicy: "no-referrer"});
+      if (!response.ok) return;
+      for (const release of await response.json()) {
+        if (release.draft || release.prerelease) continue;
+        const apk = release.assets.find(asset => asset.name === "work-time.apk" && asset.state === "uploaded");
+        if (!apk) continue;
+        if (!Number.isSafeInteger(apk.download_count) || apk.download_count < 0) return;
+        total += apk.download_count;
+        if (!Number.isSafeInteger(total)) return;
+        hasApk = true;
+      }
+      if (!/;\s*rel="next"/.test(response.headers.get("Link") || "")) break;
+    }
+    if (!hasApk) return;
+    const count = document.createElement("p");
+    count.className = "download-count";
+    count.textContent = `${labels[page.lang]}: ${new Intl.NumberFormat(page.lang).format(total)}`;
+    download.after(count);
+  } catch (_) { /* The download link remains available when GitHub cannot supply a count. */ }
+}
 
 const formatDate = date => new Intl.DateTimeFormat(page.lang, {dateStyle: "medium", timeZone: "UTC"})
   .format(new Date(date + "T00:00:00Z"));

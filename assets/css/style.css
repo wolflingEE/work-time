@@ -92,6 +92,7 @@ h2 { margin: 0 0 18px; font-size: clamp(1.8rem,3.7vw,2.75rem); letter-spacing: -
 h3 { margin: 0 0 9px; font-size: var(--font-section); letter-spacing: -.025em; }
 .hero p { margin: 0 0 22px; max-width: 38rem; font-size: clamp(1rem,1.6vw,1.2rem); color: var(--hero-muted); }
 .hero .button.primary { background: var(--hero-accent); color: var(--hero-accent-ink); border-color: var(--hero-accent); padding-inline: 20px; min-height: 50px; }
+.hero p.download-count { margin: 8px 0 0; font-size: var(--font-small); }
 .hero :focus-visible { outline-color: var(--hero-accent); }
 .badges { list-style: none; display: flex; flex-wrap: wrap; gap: 7px; margin: 18px 0 0; padding: 0; }
 .badges li { border: 1px solid var(--hero-line); border-radius: 100px; color: var(--hero-text); padding: 4px 10px; font-size: var(--font-small); }
