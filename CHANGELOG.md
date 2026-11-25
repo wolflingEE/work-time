@@ -1,3 +1,29 @@
+# Work Time 1.5.0
+
+2026-11-25
+
+## Русский
+
+- Выбор валюты для сумм, ставок и Excel. По умолчанию евро.
+- При запуске без объектов открывается форма добавления первого объекта.
+
+## Eesti
+
+- Summade, tunnitasude ja Exceli aruannete valuutat saab valida. Vaikimisi kasutatakse eurot.
+- Kui objekte veel pole, avaneb käivitamisel esimese objekti lisamise vorm.
+
+## English
+
+- Choose a currency for amounts, rates and Excel reports. The default is euros.
+- When there are no work sites, the app opens the form to add the first one.
+
+## Українська
+
+- Вибір валюти для сум, ставок і звітів Excel. Типова валюта — євро.
+- Якщо об’єктів ще немає, під час запуску відкривається форма додавання першого об’єкта.
+
+---
+
 # Work Time 1.4.2
 
 2026-11-25

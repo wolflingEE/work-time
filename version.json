@@ -1,27 +1,31 @@
 {
   "schemaVersion": 1,
   "applicationId": "com.worktime.local",
-  "versionName": "1.4.2",
-  "versionCode": 12,
+  "versionName": "1.5.0",
+  "versionCode": 13,
   "minSdk": 29,
   "releaseDate": "2026-11-25",
-  "apkSizeBytes": 23417905,
-  "apkUrl": "https://github.com/wolflingEE/work-time/releases/download/v1.4.2/work-time.apk",
+  "apkSizeBytes": 23434841,
+  "apkUrl": "https://github.com/wolflingEE/work-time/releases/download/v1.5.0/work-time.apk",
   "latestDownloadUrl": "https://github.com/wolflingEE/work-time/releases/latest/download/work-time.apk",
-  "releaseUrl": "https://github.com/wolflingEE/work-time/releases/tag/v1.4.2",
-  "sha256": "dda97fda1362b004922acd6ab28132ce4205750461b37e4d4210eea88ee99557",
+  "releaseUrl": "https://github.com/wolflingEE/work-time/releases/tag/v1.5.0",
+  "sha256": "5fe1a2a099b0985335615f3ee9dbf7b436971a41a1bbca4b3c39358a425fb3ff",
   "changelog": {
     "ru": [
-      "Раздел поддержки теперь открывается на официальном сайте Work Time."
+      "Выбор валюты для сумм, ставок и Excel. По умолчанию евро.",
+      "При запуске без объектов открывается форма добавления первого объекта."
     ],
     "et": [
-      "Toetuse jaotis avaneb nüüd Tööaja ametlikul veebilehel."
+      "Summade, tunnitasude ja Exceli aruannete valuutat saab valida. Vaikimisi kasutatakse eurot.",
+      "Kui objekte veel pole, avaneb käivitamisel esimese objekti lisamise vorm."
     ],
     "en": [
-      "The support section now opens on the official Work Time website."
+      "Choose a currency for amounts, rates and Excel reports. The default is euros.",
+      "When there are no work sites, the app opens the form to add the first one."
     ],
     "uk": [
-      "Розділ підтримки тепер відкривається на офіційному сайті застосунку."
+      "Вибір валюти для сум, ставок і звітів Excel. Типова валюта — євро.",
+      "Якщо об’єктів ще немає, під час запуску відкривається форма додавання першого об’єкта."
     ]
   }
 }
